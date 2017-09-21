@@ -32,7 +32,7 @@ namespace conditional_statements
                 Console.WriteLine($"Numero {evaluatedNumber} on positiivinen");
             }
 
-            else if (evaluatedNumber == 0)
+            else (evaluatedNumber == 0)
             {
                 Console.WriteLine($"Numero {evaluatedNumber} on nolla");
             }
